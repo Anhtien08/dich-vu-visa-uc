@@ -5,16 +5,26 @@ import {
   VisaSubclass,
 } from '../types';
 
+import logoImg from '../assets/images/logo_visa5s.jpg';
+import heroSydneyImg from '../assets/images/hero_sydney_harbour_skyline_1794385491775.jpg';
+import officeConsultationImg from '../assets/images/advisory_consultation_office_1794385490779.jpg';
+import melbourneCampusImg from '../assets/images/melbourne_university_campus_1794385491440.jpg';
+import skilledEngineeringImg from '../assets/images/skilled_engineering_team_1794385492101.jpg';
+import leadAdvisorImg from '../assets/images/advisor_portrait_lead_1794385491787.jpg';
+import teamVisa5sImg from '../assets/images/doi_ngu_visa5s.png';
+import grantResult3YearsImg from '../assets/images/visa_uc_3_nam.jpg';
+import grantResult10YearsImg from '../assets/images/visa_uc_10_nam.jpg';
+
 export const ASSETS = {
-  logo: '/assets/aistudio/LOGO1_869dacd6.jpg',
-  heroSydney: '/src/assets/images/hero_sydney_harbour_skyline_1794385491775.jpg',
-  officeConsultation: '/src/assets/images/advisory_consultation_office_1794385490779.jpg',
-  melbourneCampus: '/src/assets/images/melbourne_university_campus_1794385491440.jpg',
-  skilledEngineering: '/src/assets/images/skilled_engineering_team_1794385492101.jpg',
-  leadAdvisor: '/assets/aistudio/image_0d7c8da4.png',
-  teamVisa5s: '/assets/aistudio/image_0d7c8da4.png',
-  grantResult3Years: '/assets/aistudio/_c_3_n_m_665ba789.jpg',
-  grantResult10Years: '/assets/aistudio/ucs10_n_m_be916c4e.jpg',
+  logo: logoImg,
+  heroSydney: heroSydneyImg,
+  officeConsultation: officeConsultationImg,
+  melbourneCampus: melbourneCampusImg,
+  skilledEngineering: skilledEngineeringImg,
+  leadAdvisor: leadAdvisorImg,
+  teamVisa5s: teamVisa5sImg,
+  grantResult3Years: grantResult3YearsImg,
+  grantResult10Years: grantResult10YearsImg,
 } as const;
 
 export const BUSINESS_INFO = {

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Building2 } from 'lucide-react';
 
 interface ResilientImageProps {
@@ -14,7 +14,42 @@ export function ResilientImage({
   className = '',
   fallbackTitle,
 }: ResilientImageProps) {
+  const [currentSrc, setCurrentSrc] = useState(src);
   const [hasError, setHasError] = useState(false);
+  const [retryStage, setRetryStage] = useState(0);
+
+  // Sync state if src prop changes
+  useEffect(() => {
+    setCurrentSrc(src);
+    setHasError(false);
+    setRetryStage(0);
+  }, [src]);
+
+  const handleError = () => {
+    // Stage 1: If URL has /src/assets/images/, fallback to /assets/images/
+    if (retryStage === 0 && currentSrc.includes('/src/assets/images/')) {
+      setRetryStage(1);
+      setCurrentSrc(currentSrc.replace('/src/assets/images/', '/assets/images/'));
+      return;
+    }
+
+    // Stage 2: If URL has /assets/aistudio/, try /images/ with simple filename
+    if (retryStage === 0 && currentSrc.includes('/assets/aistudio/')) {
+      setRetryStage(1);
+      const filename = currentSrc.split('/').pop() || '';
+      setCurrentSrc(`/images/${filename}`);
+      return;
+    }
+
+    // Stage 3: If still failing and relative path is missing leading dot or slash
+    if (retryStage === 1 && currentSrc.startsWith('/')) {
+      setRetryStage(2);
+      setCurrentSrc(currentSrc.slice(1));
+      return;
+    }
+
+    setHasError(true);
+  };
 
   if (hasError) {
     return (
@@ -33,10 +68,12 @@ export function ResilientImage({
 
   return (
     <img
-      src={src}
+      src={currentSrc}
       alt={alt}
+      loading="lazy"
+      decoding="async"
       referrerPolicy="no-referrer"
-      onError={() => setHasError(true)}
+      onError={handleError}
       className={className}
     />
   );
