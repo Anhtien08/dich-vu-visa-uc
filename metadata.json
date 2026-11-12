@@ -1,0 +1,8 @@
+{
+  "name": "Remix Visa5S - Hãy Đến Nơi Nào Bạn Muốn",
+  "description": "Authoritative Australian immigration and visa advisory platform featuring skilled migration points assessment, subclass pathway exploration, live case tracking, and MARA-registered consultation booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

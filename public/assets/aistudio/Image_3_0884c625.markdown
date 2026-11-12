@@ -1,0 +1,225 @@
+---
+name: Australian Visa Advisory Authority
+colors:
+  surface: '#f7f9fb'
+  surface-dim: '#d8dadc'
+  surface-bright: '#f7f9fb'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f4f6'
+  surface-container: '#eceef0'
+  surface-container-high: '#e6e8ea'
+  surface-container-highest: '#e0e3e5'
+  on-surface: '#191c1e'
+  on-surface-variant: '#40474f'
+  inverse-surface: '#2d3133'
+  inverse-on-surface: '#eff1f3'
+  outline: '#707881'
+  outline-variant: '#c0c7d1'
+  surface-tint: '#006399'
+  primary: '#00507d'
+  on-primary: '#ffffff'
+  primary-container: '#0369a1'
+  on-primary-container: '#cbe4ff'
+  inverse-primary: '#94ccff'
+  secondary: '#565e74'
+  on-secondary: '#ffffff'
+  secondary-container: '#dae2fd'
+  on-secondary-container: '#5c647a'
+  tertiary: '#882e00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#b03e00'
+  on-tertiary-container: '#ffd9cc'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#cde5ff'
+  primary-fixed-dim: '#94ccff'
+  on-primary-fixed: '#001d32'
+  on-primary-fixed-variant: '#004b74'
+  secondary-fixed: '#dae2fd'
+  secondary-fixed-dim: '#bec6e0'
+  on-secondary-fixed: '#131b2e'
+  on-secondary-fixed-variant: '#3f465c'
+  tertiary-fixed: '#ffdbce'
+  tertiary-fixed-dim: '#ffb599'
+  on-tertiary-fixed: '#370e00'
+  on-tertiary-fixed-variant: '#7f2b00'
+  background: '#f7f9fb'
+  on-background: '#191c1e'
+  surface-variant: '#e0e3e5'
+  ocean-sky: '#0284c7'
+  deep-navy: '#0b192c'
+  slate-surface: '#f1f5f9'
+  amber-gold: '#f59e0b'
+  success-emerald: '#059669'
+  error-crimson: '#dd3333'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 64px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.015em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  title-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  gutter-lg: 2rem
+  margin: 1rem
+  margin-md: 2rem
+  margin-lg: 4rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+This design system defines an authoritative, high-trust digital platform engineered specifically for Australian immigration and visa advisory services. The brand aesthetic merges the clarity of international institutional governance with the polished approachability of a premier consultancy.
+
+The core emotional pillars are certainty, total transparency, and swift competence. Visual styling relies on Modern Corporate Precision: deliberate whitespace, razor-sharp typographic hierarchy, subtle tonal separation, and targeted conversion accents. Visual noise is stripped away to alleviate user anxiety around immigration documentation, replaced by calculated layouts, unambiguous states, and crisp transactional cues.
+
+## Colors
+The color architecture relies on a balance between sovereign stability and conversion-focused urgency:
+
+- **Primary (`#0369A1`)**: The anchor hue representing legal precision, cross-border transit, and administrative credibility. Applied to key interactive headers, focus indicators, and primary navigational wayfinding.
+- **Secondary (`#0F172A`)**: Deep executive slate/navy utilized for primary typography, authoritative containers, and institutional framing.
+- **Tertiary (`#EA580C`)**: High-visibility warm amber-orange designated exclusively for high-intent conversion pathways (Application Triggers, Consultation Bookings, Urgent Action Flags).
+- **Neutral (`#F8FAFC`)**: A pristine, cool-tinted off-white delivering expansive breathing room without the harsh glare of uncalibrated pure white (`#FFFFFF` remains reserved for foreground card surfaces).
+
+Functional semantic states leverage `amber-gold` (`#F59E0B`) for timeline updates and processing warnings, while `error-crimson` (`#DD3333`) is reserved strictly for document submission rejections and critical compliance alerts.
+
+## Typography
+Plus Jakarta Sans serves as the singular typographic foundation across headline, body, and UI label tiers. Selected for its exceptional diacritic positioning in Vietnamese script and modern geometric terminals, it combines institutional legibility with contemporary polish.
+
+- **Weight Spectrum**: Bold/Extra-Bold weights (700/800) command authority in hero messaging and statistics. Semi-bold (600) structures section breaks, labels, and table keys. Regular (400) guarantees fatigue-free reading across extensive immigration compliance text and policy disclosures.
+- **Letter Spacing**: Display and top-level headline scales implement slight negative tracking (`-0.01em` to `-0.02em`) to maintain optical density. Micro-labels and tag metadata utilize positive tracking (`0.02em` to `0.04em`) to ensure legibility when set in uppercase or compact capsules.
+
+## Layout & Spacing
+The layout adheres to an 8px modular cadence governed by an adaptive 12-column grid on desktop screens, collapsing cleanly into a 6-column structure for tablets and a 4-column column layout on mobile devices.
+
+- **Grid Alignment & Max Width**: Maximum content boundary is locked at `1280px` centered within outer margins. Canvas margins step up from `1rem` on mobile (`<640px`), to `2rem` on tablet (`640px - 1024px`), reaching `4rem` on desktop (`L
+K‚‹H
+Š‘Ý]\ˆYXÚ[šXÜÊŠŽˆÝ]\œÈØØ[H›ÜÜ[Û˜[H
+\™[XÛˆ[Øš[KK\™[XÛˆX›]œ™[XÛˆ\ÚÝÜ
+HÈ™]Z[ˆÜš^›Û[Û\š]H™]ÙY[ˆÛÛ\^YØ[™\]Z\™[Y[ËØÝ[Y[ÚXÚÛ\Ý][\Ë[™Ý\XžK\Ý\›ÙÜ™\ÜÈØ\™Ë‚‹H
+Š‘›Ü›H™Y›ÝÊŠŽˆYØ[ÛÛœÝ[][Ûˆ›Ü›\ÈÝÚ]Úœ›ÛH][KXÛÛ[[ˆÜ]^[Ý]ÈÛˆ\ÚÝÜ
+›Ü›HÛˆY™X[][YHÚXÚÛ\Ý[™›ÛÙˆÙˆÝXØÙ\ÜÈÛˆšYÚ
+HÈÚ[™ÛKXÛÛ[[ˆÝXÚÙY›ÙÜ™\ÜÚ[ÛœÈÛˆšY]ÜÜÚYÈ™[ÝÈÍŽ‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‘\[ˆ\ÈÞ\Ý[H]›ÚYÈX]žK\YšXÚX[›ÜÚYÝÜË™[Z[™È[œÝXYÛˆÛX[ˆÝ\™˜XÙHY\š[™È[™ÛÙ][ÜÜ\šXÈYÚ[™ÈÈÛÛ[][šXØ]HÝXÝ\™N‚‚‹H
+Š•Y\ˆ
+˜\ÙJJŠŽˆ›ÙHØ[˜\ÈÙ][ˆ™]]˜[Ù™‹]Ú]H
+ÑŽQØ
+K‚‹H
+Š•Y\ˆH
+Ø\™È	ˆ]H[™[ÊJŠŽˆ\™HÚ]H
+Ñ‘‘‘‘‘˜
+HÝ\™˜XÙ\ÈYš[™YžH[˜K\ÝXH\š[Y]\ˆ›Ü™\œÈ
+\ÛÛYÑL‘NŒ
+H[™[ˆ[XšY[ÝËXÛÛ˜\ÝY™\ÙHÚYÝÎˆ\Ü™Ø˜JMKŒË‹Œ
+K\œL\™Ø˜JMKŒË‹ŒÊX‚‹H
+Š•Y\ˆˆ
+[\˜XÝ]™H›Ø][™È	ˆ[]˜][™ÈØ\™ÊJŠŽˆ[]˜]YÝ]\ÈÛˆÝ™\ˆÜˆXÝ]™H™]šY]ÈØ\™È][^™HX[[^Y\ˆY™\ÙYÚYÝÜÈ[YžHY\Û]NˆLM\LÜ™Ø˜JMKŒË‹ŒŠKœM™Ø˜JMKŒË‹ŒÊX‚‹H
+Š•Y\ˆÈ
+[Ù[ËÝ™\›^\È	ˆ\œÚ\Ý[˜]Ù\œÊJŠŽˆYÚ[]™[Yš\ÛÜžH[Ù[È[˜ÛÜœÜ˜]HY\][ÜÜ\šXÈY™\Ú[ÛŽˆŒ\M\™Ø˜JMKŒË‹ŒJKLMœ™Ø˜JMKŒË‹ŒŠX[˜ÚÜ™YÝ™\ˆH˜[œÛXÙ[˜XÚÙ›Üš[\ˆÙˆ™Ø˜JMKŒË‹
+XÚ]›\‹‚‚ˆÈÈÚ\\ÂH[šYšYY›Ý[™Y™\ÜÈ]™[Ùˆ˜XÝ]\ÈHÙ[ÛY]šXÈØY[˜ÙHÙˆH\ÚYÛˆÞ\Ý[N‚‹H
+Š˜\ÙHÛÛ\Û™[È
+[œ]Ë]ÛœË›ÜÝÛœÊJŠŽˆ[™Ú[™Y\™YÚ]H\™[X
+
+H˜Y]\ËÛÛ™^Z[™ÈÝXÝ\˜[šYÛÜ‹˜[[˜ÙY\™ÛÛ›ÛZXÜË[™ÛÜœÜ˜]HX]\š]HÚ]Ý]\X\š[™ÈÝ™\›H^Y[ÜˆÛ[šXØ[‚‹H
+ŠÛÛ\ÜÚ]HÛÛZ[™\œÈ
+Ø\™Ë[™›ÈØ[Ý]ËØ\ÙH˜XÚÙ\œÊJŠŽˆØØ[YÈ›Ý[™Y[Ø
+\™[XÈMœ
+HÈÛÙ[ˆØÝ[Y[ZX]žH[\™˜XÙ\Ë‚‹H
+Š”[^Ù\[ÛœÊŠŽˆÛX[Ý]\È˜YÙ\È
+K™Ë‹”ÝX˜Û\ÜÈNH‹\›Ý™Y‹\ÜÙ\ÜÛY[[™[™ÈŠH][^™H[[ÛÛÝ\œÈÈ\Ý[™ÝZ\Ú\ØÜ™]HY]Y]HÝ]\Èœ›ÛHÝ[™\™Ù[ÛY]šXÈ]HØ\™Ë‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\žHÕH
+ÛÛ™\œÚ[ÛŠJŠŽˆ˜XÚÙÜ›Ý[™ÑPMNØ^Ñ‘‘‘‘‘˜›Û]ÙZYÚŒ˜Y]\È\™[XˆÝ™\ˆÝ]HÚYÈÈÐÌLØÚ]ÝXHYˆ™\Ù\™Y^Û\Ú]™[H›Üˆ\™XÝÛÛ™\œÚ[ÛˆXÝ[ÛœÈ
+±$1 Û™ÈðïH1¬¸n©[ˆš\ØH™Ø^H‹“¸næ\8näÈñ¨HŠK‚‹H
+Š”ÙXÛÛ™\žHÛÜœÜ˜]H]ÛŠŠŽˆ˜XÚÙÜ›Ý[™ÌÍŽPLX^Ñ‘‘‘‘‘˜ˆÝ™\ˆ˜[œÚ][ÛœÈÈÌŽÍØˆ\ÙY›Üˆš[X\žH^Ü˜][Ûˆ
+’Ú0è[H0èHðèXÈª’f—69¦2"’à¢Ò¢¤÷WFÆ–æRòv†÷7B'WGFöâ¢£¢&÷&FW"ãW‚6öÆ–B3cs$ÂFW‡B3cs$Â&6¶w&÷VæBG&ç7&VçBâ†÷fW"G&ç6—F–öç2Fò4ccTc–âÆ–VBFò6V6öæF'’Fö7VÖVçFF–öâF÷væÆöG2æBwV–FVÆ–æR&Wf–Ww2à ¢2226&G2…f—6G—W2b7V66W727F÷&–W2¤6öç7G'V7FVBöâW&Rv†—FR4dddddff÷VæFF–öç2v—F‚‚6öÆ–B4S$S„c†—&Æ–æR&÷&FW"æB&÷VæFVBÖÆv6÷&æW'2â6&G2fVGW&R7G'V7GW&VBF÷W–V'&÷r–ÆÂ–æF–6F–ærf—67V&6Æ72†RærâÂ%f—6SÒGRŽ¸Ö2"’ÂföÆÆ÷vVB'’&öÆBF—FÆRÂ&VæVf—B'&V¶F÷vâv—F‚6†V6¶Ö&²'VÆÆWG2ÂæBâæ6†÷"5Dâ†÷fW"G&ç6—F–öç26Öö÷F†Ç’VÆWfFRF†R6&Bv—F‚'†Wv&BG&ç6ÆF–öâæBF–W""6†F÷rà ¢222–çWBf–VÆG2b6VÆV7F÷'0¢Ò¢¥&W7F–ær¢£¢†V–v‡BC‡†Â&6¶w&÷VæB4dddddfÂ&÷&FW"ãW‚6öÆ–B44$CTSÂFW‡B3cs$ÂföçB6—¦Rg†à¢Ò¢¤fö7W2¢£¢&÷&FW"33c”66ö×æ–VB'’7†G&ç6ÇV6VçB&–ær†&v&ƒ2ÂRÂcÂãR–’à¢Ò¢¤W'&÷"¢£¢&÷&FW"4DC3336ÂÖ–7&òÖÆ&VÂ&VÆ÷r–çWB–â4DC3336v—F‚âÆW'B–6öâà ¢2226†—2b7FGW2&FvW0¢Ò6ö×7B67VÆW2†&÷VæFVBÖgVÆÆÂFF–ærG‚'†ÂG—öw&‡’Æ&VÂ×6Ö’à¢Ò¢¥&ö6W76–ær¢£¢&6¶w&÷VæB4dTc43vÂFW‡B4#CS3–à¢Ò¢¤&÷fVBõfW&–f–VB¢£¢&6¶w&÷VæB4T4dDcVÂFW‡B3CsƒSvà¢Ò¢¥f—66FVv÷'’¢£¢&6¶w&÷VæB4TTcd6ÂFW‡B33c”à ¢222&öw&W727FWW'2bF–ÖVÆ–æRG&6¶W'0¤W76VçF–Âf÷"×VÇF’×7FvRW7G&Æ–âf—6Æ–6F–öâ6Æ&—G’â†÷&—¦öçFÂ7FW&'2öâFW6·F÷fVGW&–ærçVÖ&W&VBæöFW26öææV7FVB'’'‚G&6²Æ–æW2â6ö×ÆWFVB7FW2&VæFW"–â33c”v—F‚v†—FR6†V6¶Ö&·3²7F—fR7FW2VÇ6Rv—F‚4TSƒ6²W6öÖ–ær7FW2&VÖ–â×WFVB–â3“D4#†à ¢2226†V6¶&÷†W2b&F–÷0¤7W7FöÒ6öçG&öÇ26—¦VBB#‚‚#†Âv—F‚ã#W&VÖ&F—W2f÷"6†V6¶&÷†W2æBgVÆÂ6—&6ÆW2f÷"&F–÷2â–æ7F—fR7FFRWF–Æ—¦W244$CTS&÷&FW"â6VÆV7FVB7FFRf–ÆÇ2v—F‚33c”Â6†÷v66–ær†–v‚Ö6öçG&7Bv†—FRvÇ—‚
