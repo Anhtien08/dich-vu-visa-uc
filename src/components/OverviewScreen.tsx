@@ -131,18 +131,24 @@ export function OverviewScreen({
               <div className="h-full min-h-[280px] lg:min-h-[380px] rounded-2xl overflow-hidden border border-slate-200 bg-white shadow-tier-1 flex flex-col">
                 <div className="relative flex-1 overflow-hidden">
                   <ResilientImage
-                    src={ASSETS.heroSydney}
-                    alt={UI_COPY.hero.caption[lang]}
-                    className="w-full h-full object-cover lg:h-full"
-                    fallbackTitle="Sydney Harbour Australia"
+                    src="/assets/aistudio/image_a9a21270.png"
+                    alt={
+                      lang === 'vi'
+                        ? 'Đội ngũ chuyên viên tư vấn nhà Visa5S tại trụ sở 370 Đường 3/2, TP. Hồ Chí Minh'
+                        : 'Visa5S specialist advisory team at 370 3/2 Street headquarters, Ho Chi Minh City'
+                    }
+                    className="w-full h-full object-cover object-center lg:h-full"
+                    fallbackTitle="Đội ngũ chuyên viên Visa5S"
                   />
                 </div>
                 <div className="px-5 py-3 bg-white border-t border-slate-200 flex items-center justify-between gap-4 text-xs text-slate-600">
                   <span className="font-medium truncate">
-                    {UI_COPY.hero.caption[lang]}
+                    {lang === 'vi'
+                      ? 'Đội ngũ chuyên viên nhà Visa5S · Trụ sở 370 Đường 3/2, TP. Hồ Chí Minh'
+                      : 'Visa5S Specialist Team · 370 3/2 Street Headquarters, Ho Chi Minh City'}
                   </span>
                   <span className="font-mono font-semibold text-[#1B1E78] shrink-0">
-                    AUSTRALIA
+                    VISA5S
                   </span>
                 </div>
               </div>
